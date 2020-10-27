@@ -53,7 +53,7 @@
                         <DropShadowEffect/>
                     </Button.Effect>
                     <Button.Background>
-                        <ImageBrush ImageSource="/black-metal-texture-inspirational-dark-brushed-metal-texture-steel-black-wolford-collision-repair-ideas-of-black-metal-texture.jpg"/>
+                        <ImageBrush ImageSource="/brushed_alu.jpg"/>
                     </Button.Background>
                 </Button>
             </Grid>
