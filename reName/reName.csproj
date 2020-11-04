@@ -8,17 +8,26 @@
     <Authors>Bart Agterbosch</Authors>
     <Company />
     <Copyright>Bart Agterbosch</Copyright>
+    <PackageIcon>reName.png</PackageIcon>
+    <ApplicationIcon>reName.ico</ApplicationIcon>
+    <AssemblyVersion>1.0.3.0</AssemblyVersion>
+    <FileVersion>1.0.3.0</FileVersion>
+    <Version>1.0.3</Version>
+    <SignAssembly>false</SignAssembly>
+    <DelaySign>false</DelaySign>
   </PropertyGroup>
 
   <ItemGroup>
     <None Remove="black-metal-texture-inspirational-dark-brushed-metal-texture-steel-black-wolford-collision-repair-ideas-of-black-metal-texture.jpg" />
     <None Remove="books-A3.jpg" />
     <None Remove="paper.jpg" />
+    <None Include="reName.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="black-metal-texture-inspirational-dark-brushed-metal-texture-steel-black-wolford-collision-repair-ideas-of-black-metal-texture.jpg" />
-    <Resource Include="books-A3.jpg" />
     <Resource Include="paper.jpg" />
   </ItemGroup>
 

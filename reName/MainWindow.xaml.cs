@@ -70,7 +70,7 @@ namespace reName
                     childItems = Directory.GetFiles(@location, "*", SearchOption.TopDirectoryOnly);
                     foreach (string file in childItems)
                     {
-                        if (file.Contains(oldValue) && (filter == null  || filter == ""))
+                        if (file.Contains(oldValue) && (filter == null || filter == ""))
                         {
                             File.Move(file, file.Replace(oldValue, newValue));
                         }
@@ -179,6 +179,7 @@ namespace reName
                         }
                     }
                 }
+            }
 
                 extensionBox.Text = null;
                 appendBox.Text = null;
@@ -196,7 +197,7 @@ namespace reName
                 newBox.IsEnabled = true;
                 filterBox.IsEnabled = true;
                 zipBox.IsEnabled = true;
-            }
+            
         }
     }
 }

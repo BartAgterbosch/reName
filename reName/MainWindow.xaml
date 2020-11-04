@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:reName"
         mc:Ignorable="d"
-        Title="reName" Height="450" Width="800" Background="Black" Opacity="0.8">
+        Title="reName" Height="369" Width="800" Background="Black" Opacity="0.8">
     <Grid Opacity="0.8">
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
@@ -17,31 +17,31 @@
         <Grid Margin="412,7,10,13" Width="338" Grid.Column="1">
             <Grid Margin="10,322,10,10"/>
             <Grid Margin="10,10,10,0" Height="307" VerticalAlignment="Top">
-                <Grid>
-                    <TextBlock x:Name="textBlock7" Height="16" Margin="54,50,218,241" TextWrapping="Wrap" Foreground="White">
+                <Grid Margin="0,-8,0,0">
+                    <TextBlock x:Name="textBlock7" Height="16" Margin="48,15,224,284" TextWrapping="Wrap" Foreground="White">
                         <TextBlock.Effect>
                             <DropShadowEffect/>
                         </TextBlock.Effect><Run Language="nl-nl" Text="Old:"/></TextBlock>
-                    <TextBlock x:Name="textBlock_8" Height="16" Margin="178,50,99,241" TextWrapping="Wrap" Foreground="White">
+                    <TextBlock x:Name="textBlock_8" Height="16" Margin="178,16,99,283" TextWrapping="Wrap" Foreground="White">
                         <TextBlock.Effect>
                             <DropShadowEffect/>
                         </TextBlock.Effect><Run Language="nl-nl" Text="New:"/></TextBlock>
-                    <TextBox x:Name="newBox" HorizontalAlignment="Left" Height="20" Margin="141,66,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="102" Foreground="White" Background="Black" SelectionBrush="#FF5D665B"/>
-                    <TextBox x:Name="oldBox" HorizontalAlignment="Left" Height="20" Margin="13,66,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="102" Foreground="White" Background="Black" SelectionBrush="#FF5D665B"/>
-                    <TextBlock x:Name="textBlock_6" Height="16" Margin="108,34,159,257" TextWrapping="Wrap" Foreground="White" Text="Replace">
+                    <TextBox x:Name="newBox" HorizontalAlignment="Left" Height="20" Margin="140,32,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="102" Foreground="White" Background="Black" SelectionBrush="#FF5D665B"/>
+                    <TextBox x:Name="oldBox" HorizontalAlignment="Left" Height="20" Margin="12,32,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="102" Foreground="White" Background="Black" SelectionBrush="#FF5D665B"/>
+                    <TextBlock x:Name="textBlock_6" Height="16" Margin="107,4,160,295" TextWrapping="Wrap" Foreground="White" Text="Replace">
                         <TextBlock.Effect>
                             <DropShadowEffect/>
                         </TextBlock.Effect></TextBlock>
-                    <TextBlock x:Name="textBlock9" Height="16" Margin="13,116,259,175" TextWrapping="Wrap" Foreground="White">
+                    <TextBlock x:Name="textBlock9" Height="16" Margin="13,84,259,215" TextWrapping="Wrap" Foreground="White">
                         <TextBlock.Effect>
                             <DropShadowEffect/>
                         </TextBlock.Effect><Run Language="nl-nl" Text="Filter:"/></TextBlock>
-                    <TextBox x:Name="filterBox" HorizontalAlignment="Left" Height="20" Margin="13,132,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="102" Foreground="White" Background="Black" SelectionBrush="#FF5D665B"/>
-                    <TextBlock x:Name="textBlock10" Height="16" Margin="13,184,259,107" TextWrapping="Wrap" Foreground="White">
+                    <TextBox x:Name="filterBox" HorizontalAlignment="Left" Height="20" Margin="13,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="102" Foreground="White" Background="Black" SelectionBrush="#FF5D665B"/>
+                    <TextBlock x:Name="textBlock10" Height="16" Margin="13,151,259,148" TextWrapping="Wrap" Foreground="White">
                         <TextBlock.Effect>
                             <DropShadowEffect/>
                         </TextBlock.Effect><Run Language="nl-nl" Text="Zip It!"/></TextBlock>
-                    <TextBox x:Name="zipBox" HorizontalAlignment="Left" Height="20" Margin="13,200,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="230" Foreground="White" Background="Black" SelectionBrush="#FF5D665B"/>
+                    <TextBox x:Name="zipBox" HorizontalAlignment="Left" Height="20" Margin="13,167,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="230" Foreground="White" Background="Black" SelectionBrush="#FF5D665B"/>
                 </Grid>
                 <Button x:Name="renameClick" Content="reName" Margin="170,266,22,10" Foreground="White" Height="31" BorderBrush="{x:Null}" FontWeight="Normal" FontStyle="Normal" FontStretch="Normal">
                     <Button.Resources>
@@ -53,7 +53,7 @@
                         <DropShadowEffect/>
                     </Button.Effect>
                     <Button.Background>
-                        <ImageBrush ImageSource="/black-metal-texture-inspirational-dark-brushed-metal-texture-steel-black-wolford-collision-repair-ideas-of-black-metal-texture.jpg"/>
+                        <ImageBrush ImageSource="/paper.jpg"/>
                     </Button.Background>
                 </Button>
             </Grid>
