@@ -52,7 +52,6 @@ namespace reName
             filterBox.IsEnabled = false;
             zipBox.IsEnabled = false;
 
-
             extension = extensionBox.Text;
             prepend = prependBox.Text;
             append = appendBox.Text;
@@ -64,7 +63,6 @@ namespace reName
 
             if (location != null && Directory.Exists(location) && location != "")
             {
-
                 if (oldValue != null && oldValue != "")
                 {
                     childItems = Directory.GetFiles(@location, "*", SearchOption.TopDirectoryOnly);
@@ -158,7 +156,6 @@ namespace reName
                         {
                             location += "\\";
                         }
-
                         while (true)
                         {
                             int rand = new Random().Next(10000, 40000);
@@ -180,7 +177,6 @@ namespace reName
                     }
                 }
             }
-
                 extensionBox.Text = null;
                 appendBox.Text = null;
                 prependBox.Text = null;
@@ -197,7 +193,6 @@ namespace reName
                 newBox.IsEnabled = true;
                 filterBox.IsEnabled = true;
                 zipBox.IsEnabled = true;
-            
         }
     }
 }
