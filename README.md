@@ -27,5 +27,6 @@ This is just an alpha, so crashes may occur, nevertheless I haven't run in to an
 <br>
 <br>
 ## Warning:
-I am no longer maintaining this project, and I have noticed that there is a bug where in some circumstances it will not behave as expected, for example it might delete everything in a filename after a period character.
+I am no longer maintaining this project, and I have noticed that there is a bug where in some circumstances it will not behave as expected.<br>
+For example it might delete everything in a filename after a period character.<br>
 So if you still wish to use this program, I suggest making a backup of the folder/files before using this tool to rename the files, as it may end up giving unexpected and irreversible results
