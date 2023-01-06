@@ -24,3 +24,8 @@ This can be all files if no filter is applied, or only a certain set of files if
 Leaving this box empty means it will not zip any files and simply skip that part.
 
 This is just an alpha, so crashes may occur, nevertheless I haven't run in to any yet.
+<br>
+<br>
+## Warning:
+I am no longer maintaining this project, and I have noticed that there is a bug where in some circumstances it will not behave as expected, for example it might delete everything in a filename after a period character.
+So if you still wish to use this program, I suggest making a backup of the folder/files before using this tool to rename the files, as it may end up giving unexpected and irreversible results
